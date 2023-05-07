@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+      display: flex;
+      justify-content: center;
+      background-image:url("paint.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+  }
+  
+  .student-detail form {
+      border: 2px solid #000000;
+      padding: 16px;
+      border-radius: 15px;
+      background-color: skyblue;
+  }
+  
+  .student-detail{
+    width: 30%;
+  }
+  
+  input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #e7e2e2;
+    border-radius: 15px;
+  }
+  
+  button[type=submit] {
+      background-color: #02d461;
+      color: #ffffff;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+      font-size: 20px;
+      border-radius: 10px;
+  }
+  
+  label{
+    font-size: 18px;
+  }
+  
+  button[type=submit]:hover {
+    background-color:#019f48;
+  }
+  .form-title{
+    margin: 15px;
+  }
+  h2{
+    display: table;
+    margin: 0px auto 0px auto;
+    padding: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(14, 84, 205);
+    color: aliceblue;
+    text-decoration: underline;
+  }
+  

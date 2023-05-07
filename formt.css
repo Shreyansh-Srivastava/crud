@@ -1,0 +1,85 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  background-image:url("image.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h2{
+  display: table;
+  margin: 0px auto 0px auto;
+  padding: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+thead{
+  background-color: rgb(96, 154, 255);
+}
+
+tbody{
+  background-color: aliceblue;
+}
+table, td, th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 15px;
+  border-collapse: collapse;
+  max-width: 100%;
+}
+
+.boxBtn{
+  position:absolute;
+  top: 10px;
+  right: 250px;
+  padding: 10px 25px;
+  width: 150px;
+  background-color: rgb(12, 238, 83);
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid rgb(0, 0, 0);
+  transition: all .5s;
+}
+
+.Btn1{
+  padding: 5px 10px;
+  width: 100px;
+  background-color: rgb(131, 212, 239);
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid rgb(0, 0, 0);
+  transition: all .5s;
+}
+
+.Btn2{
+  padding: 5px 10px;
+  width: 100px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid rgb(0, 0, 0);
+  transition: all .5s;
+}
